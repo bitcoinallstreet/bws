@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>798</width>
+    <width>818</width>
     <height>727</height>
    </rect>
   </property>
@@ -260,7 +260,7 @@
         <enum>Qt::LeftToRight</enum>
        </property>
        <property name="autoFillBackground">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="frameShape">
         <enum>QFrame::NoFrame</enum>
@@ -275,13 +275,13 @@
         <enum>Qt::PlainText</enum>
        </property>
        <property name="pixmap">
-        <pixmap>../res/images/bitcoin.png</pixmap>
+        <pixmap>../../../Users/natha/Documents/GitHub/bwsNew/qt/res/images/about.png</pixmap>
        </property>
        <property name="scaledContents">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignJustify|Qt::AlignTop</set>
        </property>
        <property name="wordWrap">
         <bool>false</bool>
@@ -293,19 +293,6 @@
         <bool>false</bool>
        </property>
       </widget>
-     </item>
-     <item>
-      <spacer name="verticalSpacer">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
      </item>
     </layout>
    </item>
