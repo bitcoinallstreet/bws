@@ -37,7 +37,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Bitcoinwallstreet address (e.g. NaoikK1pALjkLwYTnJSJMu2VHUmP5nJWfR)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Bitcoinwspectrum address (e.g. NaoikK1pALjkLwYTnJSJMu2VHUmP5nJWfR)"));
 #endif
 
     addEntry();
@@ -462,7 +462,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid bitcoinwallstreet address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid bitcoinwspectrum address"));
         }
         else
         {
