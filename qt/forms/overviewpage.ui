@@ -275,7 +275,7 @@
         <enum>Qt::PlainText</enum>
        </property>
        <property name="pixmap">
-        <pixmap>../res/images/about.png</pixmap>
+        <pixmap>../res/images/guisplash.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>false</bool>
