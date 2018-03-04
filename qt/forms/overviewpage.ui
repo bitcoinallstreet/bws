@@ -275,10 +275,10 @@
         <enum>Qt::PlainText</enum>
        </property>
        <property name="pixmap">
-        <pixmap>../res/images/guisplash.png</pixmap>
+        <pixmap>../res/images/splash.png</pixmap>
        </property>
        <property name="scaledContents">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
